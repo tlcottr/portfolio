@@ -341,13 +341,13 @@ background-color: var(--gray);
   cursor: pointer;
 }
 .fo {
-  background-image: url("../img/fo.jpg");
+  background-image: url("../img/FO.jpg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
 }
 .fo:hover {
-  background-image: url("../img/fo-hov.jpg");
+  background-image: url("../img/FO-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
@@ -367,23 +367,23 @@ background-color: var(--gray);
   cursor: pointer;
 }
 .SM {
-  background-image: url("/img/SM-1.jpg");
+  background-image: url("../img/SM-1.jpg");
   background-position: center;
   background-size: cover;
 }
 .SM:hover {
-  background-image: url("/img/SM-hov.jpg");
+  background-image: url("../img/SM-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
 }
 .AP {
-  background-image: url("/img/AP-1.jpg");
+  background-image: url("../img/AP-1.jpg");
   background-position: center;
   background-size: cover;
 }
 .AP:hover {
-  background-image: url("/img/AP-hov.jpg");
+  background-image: url("../img/AP-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
