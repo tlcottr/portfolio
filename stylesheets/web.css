@@ -549,7 +549,7 @@ a {
 
 /* line 343, ../sass/_body.scss */
 .fo {
-  background-image: url("../img/fo.jpg");
+  background-image: url("../img/FO.jpg");
   background-position: center;
   background-size: cover;
   cursor: pointer;
@@ -557,7 +557,7 @@ a {
 
 /* line 349, ../sass/_body.scss */
 .fo:hover {
-  background-image: url("../img/fo-hov.jpg");
+  background-image: url("../img/FO-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
@@ -583,14 +583,14 @@ a {
 
 /* line 369, ../sass/_body.scss */
 .SM {
-  background-image: url("/img/SM-1.jpg");
+  background-image: url("../img/SM-1.jpg");
   background-position: center;
   background-size: cover;
 }
 
 /* line 374, ../sass/_body.scss */
 .SM:hover {
-  background-image: url("/img/SM-hov.jpg");
+  background-image: url("../img/SM-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
@@ -598,14 +598,14 @@ a {
 
 /* line 380, ../sass/_body.scss */
 .AP {
-  background-image: url("/img/AP-1.jpg");
+  background-image: url("../img/AP-1.jpg");
   background-position: center;
   background-size: cover;
 }
 
 /* line 385, ../sass/_body.scss */
 .AP:hover {
-  background-image: url("/img/AP-hov.jpg");
+  background-image: url("../img/AP-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
