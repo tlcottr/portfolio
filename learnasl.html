@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <title>Taylor Cottrell</title>
+
+
+    <!-- Styles -->
+    <link rel="stylesheet" href="stylesheets/web.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+    <!-- Fonts -->
+
+    <!-- Fontawesome Icon fotns -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="font/font-awesome.min.css">
+    <script src="https://kit.fontawesome.com/af692b5953.js" crossorigin="anonymous"></script>
+
+    <!-- Js -->
+    <script>
+    var nav = false;
+    function openMenu(){
+        document.getElementById('menu').classList.toggle("show");
+        document.getElementById('x').classList.add("rot");
+        document.getElementById('body').classList.add("bodyHasOverlay");
+        document.getElementById('divider').classList.add("divider");
+        document.getElementById('divider2').classList.add("divider2");
+        document.getElementById('divider3').classList.add("divider3");
+        document.getElementById('x').style.color = 'white';
+        document.getElementById('logo').style.color = 'white';
+        document.documentElement.style.overflow = 'hidden';
+        document.body.scroll = "no";
+        nav = true;
+    }
+    function closeMenu(){
+        document.getElementById('menu').classList.toggle("show");
+        document.getElementById('x').classList.remove("rot");
+        document.getElementById('body').classList.remove("bodyHasOverlay");
+        document.getElementById('divider').classList.remove("divider");
+        document.getElementById('divider2').classList.remove("divider2");
+        document.getElementById('divider3').classList.remove("divider3");
+        document.getElementById('x').style.color = 'black';
+        document.getElementById('logo').style.color = 'black';
+        document.documentElement.style.overflow = 'scroll';
+        document.body.scroll = "yes";
+        nav = false;
+    }
+    function toggleMenu(){
+      nav ? closeMenu() : openMenu();
+    }
+    </script>
+
+</head>
+<body class="wbg fade-in" id="body">
+      <div id="header">
+        <div class="headercontent ms-header">
+            <div class="content-left">
+              <div class="logo">
+              <a href="/">
+                <h1 class="ms-header__title" id="logo">
+                  <b>Taylor Cottrell</b>
+                  <div class="ms-slider">
+                    <ul class="ms-slider__words">
+                      <li class="ms-slider__word">Art Director.</li>
+                      <li class="ms-slider__word">Designer.</li>
+                      <li class="ms-slider__word">Developer.</li>
+                      <!-- This last word needs to duplicate the first one to ensure a smooth infinite animation -->
+                      <li class="ms-slider__word">Art Director.</li>
+                    </ul>
+                  </div>
+                </h1>
+              </a>
+            </div>
+            </div>
+            <div class="content-right">
+              <div class="innerNav x" id="x" onclick="toggleMenu()">+</div>
+            </div>
+        </div>
+      </div>
+      <div class="menu show" id="menu">
+      <div class="menuContent">
+      <hr class="dividerStart" id="divider"></hr>
+      <div id="work" class="workContainer2">
+        <div class="menuModule" data-aos="fade-in">
+          <div class="menuModuleTitle">
+            About
+          </div>
+          <div class="menuModuleText">
+            Taylor Cottrell is a multidisciplinary designer living in New York City. He is currently working as an Art Director at Factory360. Despite being a designer first, he also regularly approaches projects with his front-end development skills and 3D modeling abilities. He is also a huge fan of pineapple on pizza.
+          </div>
+      </div>
+      <hr class="dividerStart2" id="divider2"></hr>
+      <div class="skillModule" data-aos="fade-in">
+        <div class="skillModuleTitle">
+          Awards
+        </div>
+        <div class="skillModuleText">
+          Chief Marketer Top 200 Agencies 2021 /
+          Chief Marketer Top 200 Agencies 2020 /
+          Inc. 5000 List 2020 /
+          Ex Awards Gold 2020 /
+          Ex Awards Silver 2020 /
+          Pro Awards Gold 2020 /
+          Pro Awards Silver 2020 /
+          Pro Awards Bronze 2020 /
+          Experience Design & Tech Silver 2020 /
+          Experience Design & Tech Bronze 2020 /
+          Pro Awards Silver 2019 /
+          Ex Awards Silver 2019 /
+        </div>
+    </div>
+    <hr class="dividerStart3" id="divider3"></hr>
+    <div class="skillModule" data-aos="fade-in">
+      <div class="skillModuleTitle">
+        Contact
+      </div>
+      <div class="skillModuleText">
+        <a href="mailto:taylorleecottrell@gmail.com"><i class="far fa-envelope"></i></a>
+        <a href="https://www.instagram.com/taylorcottrell.jpg/"><i class="fab fa-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/taylor-cottrell-331389119/"><i class="fab fa-linkedin-in"></i></a>
+        <a href="https://github.com/tlcottr"><i class="fab fa-github"></i></a>
+        <a href="https://open.spotify.com/user/1243783722?si=6Xwb-uZaR-qTLpjCjDhjKQ"><i class="fab fa-spotify"></i></a>
+      </div>
+  </div>
+      </div>
+    </div>
+      </div>
+      <div id="work" class="workContainer">
+        <div class="caseHeader">
+          <div class="caseTitle">
+            Spec<br>
+            Learn ASL
+          </div>
+          <div class="caseDesc">
+            A personal approach to learning American Sign Language and practicing 3D modeling & rendering.
+          </div>
+      </div>
+      </div>
+      <div class="aslHeroImage">
+        <div class="heroSM"></div>
+      </div>
+      <div id="work" class="workContainer2">
+        <div class="module">
+          <div class="moduleTitle">
+            Skills used
+          </div>
+          <div class="moduleText">
+            Modeling & Rendering, Animation, Rigging and Lighting
+          </div>
+      </div>
+      <div class="aslHeroImage2">
+        <div class="heroSM"></div>
+      </div>
+      <div class="apHeroImage3">
+        <div class="heroSM"></div>
+      </div>
+      <div class="heroImage2">
+        <div class="heroSM"></div>
+      </div>
+      </div>
+      <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+        <script>
+          AOS.init();
+        </script>
+</body>
+
+<header>
+</header><!-- End Header -->
+
+
+ <!-- start footer -->
+<footer>
+</footer> <!-- end footer -->
+
+
+<!-- jQuery-->
+<script src="https://code.jquery.com/jquery-3.2.1.js"></script>
+
+</html>

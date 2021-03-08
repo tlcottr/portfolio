@@ -1,0 +1,268 @@
+.caseHeader {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 3em;
+}
+.caseTitle {
+  float:left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+}
+.caseDesc {
+  float: right;
+  font-size: 3em;
+  flex: 3;
+}
+.heroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.kHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.apHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.aslHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.blondHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.flondHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+.bodyText {
+  float: right;
+  font-size: 2em;
+  flex: 3;
+  font-weight: lighter;
+}
+.heroImage2 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/ageGate_1.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.aslHeroImage2 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/asl_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.apHeroImage2 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/templates_4.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.apHeroImage3 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/signage.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.heroImage3 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/Locations.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.heroImage4 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/RSVP_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.module {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+.moduleTitle {
+  float:left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+}
+.moduleText {
+  float: right;
+  font-size: 2em;
+  flex: 3;
+  font-weight: lighter;
+}
+.moduleCredits {
+  font-size: 1.5em;
+  flex: 3;
+  font-weight: lighter;
+}
+.heroImage {
+  background-image: url("../img/SM-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.apHeroImage {
+  background-image: url("../img/ApplePay-BK-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.aslHeroImage {
+  background-image: url("../img/asl_3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.kHeroImage {
+  background-image: url("../img/kinetic_4.gif");
+  background-position: center;
+  background-size: cover;
+}
+.kHeroImage2 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/kinetic_1.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.kHeroImage3 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/kinetic_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.kHeroImage4 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/kinetic_3.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.blondHeroImage {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/FO_1.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.blondHeroImage2 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/blond_1.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.blondHeroImage3 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/blond_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.blondHeroImage4 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/blond_3.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.canvas {
+  width:95vw;
+  height: 800px;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.fHeroImage {
+  background-image: url("../img/f360vid.mp4");
+  background-position: center;
+  background-size: cover;
+}
+.fHeroImage2 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/f_color.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.fHeroImage3 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/f_graphics.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.fHeroImage4 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/f_site.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.fHeroImage5 {
+  width:100%;
+  height: 800px;
+  background-image: url("../img/f_site-2.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+.classLink {
+  color:blue;
+}
+.classLink:hover {
+  padding-left:5px;
+  transition: 200ms ease-in-out
+}

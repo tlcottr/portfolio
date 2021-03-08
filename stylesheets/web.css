@@ -1,0 +1,1134 @@
+@import url('href="https://fonts.googleapis.com/css?family=Roboto:400,500,700,900');
+/* line 4, ../sass/_variables.scss */
+:root {
+  --white: #ffffff;
+  --gray: #f4f4f4;
+  --standard-font: 'Helvetica', sans-serif;
+}
+
+/* line 1, ../sass/_generic.scss */
+h1 {
+  font-size: 19.5px;
+  font-family: var(--standard-font);
+  font-weight: 300;
+  letter-spacing: 0.01em;
+  color: #000;
+  margin: 0 0;
+  transition: color 400ms cubic-bezier(0.8, 0, 0.55, 0.94);
+}
+
+/* line 10, ../sass/_generic.scss */
+h2 {
+  font-size: 1.3em;
+  font-family: var(--standard-font);
+  font-weight: 200;
+  letter-spacing: 0.2px;
+  line-height: 1.25em;
+  color: #000;
+  transition: color 400ms cubic-bezier(0.8, 0, 0.55, 0.94);
+}
+
+/* line 19, ../sass/_generic.scss */
+h3 {
+  font-size: 1em;
+  font-family: var(--standard-font);
+  font-weight: 200;
+  letter-spacing: 0.2px;
+  line-height: 1.25em;
+  color: #000;
+  transition: color 400ms cubic-bezier(0.8, 0, 0.55, 0.94);
+}
+
+/* line 28, ../sass/_generic.scss */
+a {
+  text-decoration: none;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+  }
+}
+/* line 39, ../sass/_generic.scss */
+.fade-in {
+  -webkit-animation: fadeIn 1s ease-in 1 forwards;
+  animation: fadeIn 1s ease-in 1 forwards;
+  transition: all 1.5s cubic-bezier(0.35, 1, 0.45, 1);
+  opacity: 0;
+}
+
+/* line 45, ../sass/_generic.scss */
+[data-animate-in] {
+  opacity: 0;
+  transition: transform 0.8s ease, opacity 0.8s ease;
+}
+
+/* line 50, ../sass/_generic.scss */
+[data-animate-in="up"] {
+  transform: translate3d(0, 24px, 0);
+}
+
+/* line 54, ../sass/_generic.scss */
+[data-animate-in="left"] {
+  transform: translate3d(-25%, 0, 0);
+}
+
+/* line 58, ../sass/_generic.scss */
+[data-animate-in="right"] {
+  transform: translate3d(25%, 0, 0);
+}
+
+/* line 62, ../sass/_generic.scss */
+[data-animate-in="down"] {
+  transform: translate3d(0, -24px, 0);
+}
+
+/* line 66, ../sass/_generic.scss */
+[data-animate-in="fadeIn"] {
+  transform: translate3d(0, 0, 0);
+}
+
+/* line 70, ../sass/_generic.scss */
+[data-animate-in].in-view {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+  -webkit-transform: translate3d(0, 0, 0);
+  transition: transform 0.6s ease, opacity 0.6s ease;
+}
+
+/* line 77, ../sass/_generic.scss */
+.fade-in {
+  opacity: 0;
+  transition: opacity 1s ease;
+}
+
+/* line 82, ../sass/_generic.scss */
+.page-loaded .fade-in, .page-loaded.fade-in {
+  opacity: 1;
+}
+
+/* line 86, ../sass/_generic.scss */
+.isSafari.isTouch [data-animate-in], .isSafari.isTouch [data-animate-in="up"] {
+  opacity: 1;
+  transition: none;
+  transform: none;
+}
+
+/* line 1, ../sass/_body.scss */
+#body {
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  overflow: scroll;
+}
+
+/* line 7, ../sass/_body.scss */
+.bodyHasOverlay {
+  overflow: hidden;
+}
+
+/* line 12, ../sass/_body.scss */
+.wbg {
+  background-color: var(--gray);
+}
+
+/* line 18, ../sass/_body.scss */
+#header {
+  padding-top: 30px;
+  height: 100px;
+  top: 0px;
+  z-index: 20;
+  position: relative;
+  transition: 500ms ease-in-out;
+}
+
+/* line 26, ../sass/_body.scss */
+.headerOverlay {
+  position: fixed;
+  top: 0px;
+}
+
+/* line 30, ../sass/_body.scss */
+#work {
+  position: relative;
+  transition: 500ms ease-in-out;
+  transition-delay: 500ms ease-in-out;
+}
+
+/* line 35, ../sass/_body.scss */
+#info {
+  transition: 500ms ease-in-out;
+}
+
+/* line 38, ../sass/_body.scss */
+.headercontent {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+/* line 42, ../sass/_body.scss */
+.content-left {
+  float: left;
+  width: 50%;
+}
+
+/* line 46, ../sass/_body.scss */
+.logo {
+  float: left;
+}
+
+/* line 49, ../sass/_body.scss */
+.content-right {
+  float: right;
+  width: 50%;
+}
+
+/* line 53, ../sass/_body.scss */
+.innerNav {
+  display: inline;
+  margin-left: 1.25em;
+  transition: 300ms ease-in-out;
+  opacity: .5;
+  font-size: 3em;
+  font-weight: 100;
+}
+
+/* line 61, ../sass/_body.scss */
+#x {
+  color: black;
+  rotation: 0deg;
+  cursor: pointer;
+}
+
+/* line 66, ../sass/_body.scss */
+.innerNav:hover {
+  transition: 300ms ease-in-out;
+  opacity: 1;
+}
+
+/* line 70, ../sass/_body.scss */
+.innerNav {
+  float: right;
+}
+
+/* line 75, ../sass/_body.scss */
+.dividerStart {
+  color: white;
+  position: relative;
+  top: 6vw;
+  width: 0;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left: 0;
+}
+
+/* line 84, ../sass/_body.scss */
+.dividerStart2 {
+  color: white;
+  position: relative;
+  top: 6vw;
+  width: 0;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left: 0;
+}
+
+/* line 93, ../sass/_body.scss */
+.dividerStart3 {
+  color: white;
+  position: relative;
+  top: 6vw;
+  width: 0;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left: 0;
+}
+
+/* line 102, ../sass/_body.scss */
+.divider {
+  color: white;
+  position: relative;
+  top: 6vw;
+  width: 94vw;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left: 0;
+}
+
+/* line 111, ../sass/_body.scss */
+.divider2 {
+  color: white;
+  position: relative;
+  top: 6vw;
+  width: 94vw;
+  transition: 1s ease-in-out;
+  transition-delay: .5s;
+  margin-left: 0;
+}
+
+/* line 120, ../sass/_body.scss */
+.divider3 {
+  color: white;
+  position: relative;
+  top: 6vw;
+  width: 94vw;
+  transition: 1s ease-in-out;
+  transition-delay: .75s;
+  margin-left: 0;
+}
+
+/* line 129, ../sass/_body.scss */
+.menu {
+  height: 100vh;
+  width: 100%;
+  transition: 0.3s ease-in-out;
+  background-color: black;
+  position: fixed;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  opacity: 1;
+  visibility: visible;
+}
+
+/* line 143, ../sass/_body.scss */
+.menuContent {
+  width: 95vw;
+  margin: 0 auto;
+}
+
+/* line 147, ../sass/_body.scss */
+.menuModule {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  color: white;
+  position: relative;
+  top: 4vw;
+}
+
+/* line 157, ../sass/_body.scss */
+.menuModuleTitle {
+  float: left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+  color: white;
+}
+
+/* line 164, ../sass/_body.scss */
+.menuModuleText {
+  float: right;
+  font-size: 1.5em;
+  flex: 4;
+  font-weight: lighter;
+  color: white;
+  line-height: 1.5em;
+}
+
+/* line 172, ../sass/_body.scss */
+.skillModule {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 6em;
+  color: white;
+  position: relative;
+  top: 4vw;
+}
+
+/* line 182, ../sass/_body.scss */
+.skillModuleTitle {
+  float: left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+  color: white;
+}
+
+/* line 189, ../sass/_body.scss */
+.skillModuleText {
+  float: right;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+  line-height: 1.5em;
+  flex: 4;
+}
+
+/* line 197, ../sass/_body.scss */
+.skillModuleText > a {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+  opacity: .75;
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+
+/* line 205, ../sass/_body.scss */
+.skillModuleText > a:visited {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+
+/* line 210, ../sass/_body.scss */
+.skillModuleText > a:hover {
+  color: white;
+  opacity: 1;
+}
+
+/* line 214, ../sass/_body.scss */
+.skillModuleText > a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+
+/* line 218, ../sass/_body.scss */
+.show {
+  opacity: 0;
+  visibility: hidden;
+  transition: 300ms ease-in-out;
+}
+
+/* line 223, ../sass/_body.scss */
+.rot {
+  -ms-transform: rotate(45deg);
+  -webkit-transform: rotate(45deg);
+  transform: rotate(45deg);
+  transition: 300ms ease-in-out;
+}
+
+/* line 232, ../sass/_body.scss */
+.open {
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+}
+
+/* line 236, ../sass/_body.scss */
+.workContainer {
+  margin: 0 auto;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 242, ../sass/_body.scss */
+.workContainer2 {
+  margin: 0 auto;
+  padding-top: 3em;
+  width: 95vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* line 249, ../sass/_body.scss */
+.workTile1 {
+  height: 600px;
+  width: 32.55%;
+  background-color: black;
+  border: 6px solid #f4f4f4;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  transition: .25s ease-in-out;
+  top: 0;
+}
+
+/* line 261, ../sass/_body.scss */
+.workTile1:hover {
+  top: -5px;
+}
+/* line 263, ../sass/_body.scss */
+.workTile1:hover .title2 {
+  opacity: 1;
+  transition: 300ms ease-in-out;
+}
+
+/* line 268, ../sass/_body.scss */
+.title {
+  position: absolute;
+  z-index: 2;
+  top: 30px;
+  left: 30px;
+  font-family: helvetica;
+  color: white;
+  font-size: 1.2em;
+  font-weight: medium;
+  cursor: pointer;
+}
+
+/* line 279, ../sass/_body.scss */
+.title2 {
+  position: absolute;
+  z-index: 1;
+  bottom: 30px;
+  left: 30px;
+  font-family: helvetica;
+  color: white;
+  font-size: 1.2em;
+  font-weight: medium;
+  opacity: 0;
+  cursor: pointer;
+}
+
+/* line 291, ../sass/_body.scss */
+.SM {
+  background-image: url("../img/SM-1.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 297, ../sass/_body.scss */
+.SM:hover {
+  background-image: url("../img/SM-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+/* line 304, ../sass/_body.scss */
+.AP {
+  background-image: url("../img/AP-1.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 310, ../sass/_body.scss */
+.AP:hover {
+  background-image: url("../img/AP-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+/* line 317, ../sass/_body.scss */
+.hand {
+  background-image: url("../img/pers_hand.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 323, ../sass/_body.scss */
+.hand:hover {
+  background-image: url("../img/pers_hand-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+/* line 330, ../sass/_body.scss */
+.kinetic {
+  background-image: url("../img/radial.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 336, ../sass/_body.scss */
+.kinetic:hover {
+  background-image: url("../img/radial-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+/* line 343, ../sass/_body.scss */
+.fo {
+  background-image: url("../img/fo.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 349, ../sass/_body.scss */
+.fo:hover {
+  background-image: url("../img/fo-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+/* line 356, ../sass/_body.scss */
+.f360 {
+  background-image: url("../img/f360.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 362, ../sass/_body.scss */
+.f360:hover {
+  background-image: url("../img/f360-hover.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+
+/* line 369, ../sass/_body.scss */
+.SM {
+  background-image: url("/img/SM-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 374, ../sass/_body.scss */
+.SM:hover {
+  background-image: url("/img/SM-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+}
+
+/* line 380, ../sass/_body.scss */
+.AP {
+  background-image: url("/img/AP-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 385, ../sass/_body.scss */
+.AP:hover {
+  background-image: url("/img/AP-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+}
+
+/* line 1, ../sass/slideup.scss */
+.ms-header {
+  display: flex;
+  align-items: center;
+  jsutify-content: center;
+  font-family: var(--standard-font);
+}
+
+/* line 7, ../sass/slideup.scss */
+.ms-header__title {
+  flex: 1 1 100%;
+  width: 100%;
+  text-align: center;
+  font-size: 1.5rem;
+  font-weight: 200;
+  color: black;
+  opacity: 1;
+}
+
+/* line 17, ../sass/slideup.scss */
+.ms-slider {
+  display: inline-block;
+  height: 1.5em;
+  overflow: hidden;
+  vertical-align: middle;
+  -webkit-mask-image: linear-gradient(transparent, white, white, white, transparent);
+  mask-image: linear-gradient(transparent, white, white, white, transparent);
+  mask-type: luminance;
+  mask-mode: alpha;
+}
+
+/* line 27, ../sass/slideup.scss */
+.ms-slider__words {
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  -webkit-animation-name: wordSlider;
+  animation-name: wordSlider;
+  -webkit-animation-timing-function: ease-out;
+  animation-timing-function: ease-out;
+  -webkit-animation-iteration-count: infinite;
+  animation-iteration-count: infinite;
+  -webkit-animation-duration: 7s;
+  animation-duration: 7s;
+}
+
+/* line 41, ../sass/slideup.scss */
+.ms-slider__word {
+  display: block;
+  line-height: 1.3em;
+  text-align: left;
+}
+
+@-webkit-keyframes wordSlider {
+  0%, 27% {
+    transform: translateY(0%);
+  }
+  33%, 60% {
+    transform: translateY(-25%);
+  }
+  66%, 93% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(-75%);
+  }
+}
+@keyframes wordSlider {
+  0%, 27% {
+    transform: translateY(0%);
+  }
+  33%, 60% {
+    transform: translateY(-25%);
+  }
+  66%, 93% {
+    transform: translateY(-50%);
+  }
+  100% {
+    transform: translateY(-75%);
+  }
+}
+/* line 1, ../sass/overlay.scss */
+.overlay {
+  height: 0vh;
+  width: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 500ms ease-in-out;
+}
+
+/* line 12, ../sass/overlay.scss */
+.projectOverlay {
+  height: 2000px;
+  width: 0vw;
+  z-index: 5;
+  background-color: #d5d5d5;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 600ms ease-in-out;
+}
+
+/* line 25, ../sass/overlay.scss */
+.overlay-content {
+  width: 95vw;
+  margin: 0 auto;
+  position: relative;
+  transition: 400ms ease-in-out;
+  transition-delay: 200ms;
+  opacity: 0%;
+  top: 75px;
+}
+
+/* line 34, ../sass/overlay.scss */
+.content-left {
+  float: left;
+}
+
+/* line 37, ../sass/overlay.scss */
+.content-right {
+  float: right;
+}
+
+/* line 40, ../sass/overlay.scss */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* line 43, ../sass/overlay.scss */
+.introduction {
+  font-size: 1.35em;
+  width: 40vw;
+  margin-right: 10vw;
+  line-height: 1.75em;
+  text-align: left;
+}
+
+/* line 50, ../sass/overlay.scss */
+.contact {
+  font-size: 1.35em;
+  width: 50vw;
+  line-height: 1.75em;
+  text-align: left;
+}
+
+/* line 56, ../sass/overlay.scss */
+.contactli {
+  display: inline;
+}
+
+/* line 59, ../sass/overlay.scss */
+.awardLogo {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* line 64, ../sass/overlay.scss */
+.award-holder {
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+/* line 68, ../sass/overlay.scss */
+video {
+  width: 100%;
+  height: auto;
+}
+
+/* line 1, ../sass/_casestudy.scss */
+.caseHeader {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 3em;
+}
+
+/* line 7, ../sass/_casestudy.scss */
+.caseTitle {
+  float: left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+}
+
+/* line 13, ../sass/_casestudy.scss */
+.caseDesc {
+  float: right;
+  font-size: 3em;
+  flex: 3;
+}
+
+/* line 18, ../sass/_casestudy.scss */
+.heroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+
+/* line 23, ../sass/_casestudy.scss */
+.kHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+
+/* line 28, ../sass/_casestudy.scss */
+.apHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+
+/* line 33, ../sass/_casestudy.scss */
+.aslHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+
+/* line 38, ../sass/_casestudy.scss */
+.blondHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+
+/* line 43, ../sass/_casestudy.scss */
+.flondHeroImage {
+  width: 100%;
+  height: 800px;
+  background-color: black;
+}
+
+/* line 48, ../sass/_casestudy.scss */
+.bodyText {
+  float: right;
+  font-size: 2em;
+  flex: 3;
+  font-weight: lighter;
+}
+
+/* line 54, ../sass/_casestudy.scss */
+.heroImage2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/ageGate_1.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 63, ../sass/_casestudy.scss */
+.aslHeroImage2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/asl_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 72, ../sass/_casestudy.scss */
+.apHeroImage2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/templates_4.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 81, ../sass/_casestudy.scss */
+.apHeroImage3 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/signage.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 90, ../sass/_casestudy.scss */
+.heroImage3 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/Locations.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 99, ../sass/_casestudy.scss */
+.heroImage4 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/RSVP_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 108, ../sass/_casestudy.scss */
+.module {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 2em;
+}
+
+/* line 115, ../sass/_casestudy.scss */
+.moduleTitle {
+  float: left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+}
+
+/* line 121, ../sass/_casestudy.scss */
+.moduleText {
+  float: right;
+  font-size: 2em;
+  flex: 3;
+  font-weight: lighter;
+}
+
+/* line 127, ../sass/_casestudy.scss */
+.moduleCredits {
+  font-size: 1.5em;
+  flex: 3;
+  font-weight: lighter;
+}
+
+/* line 132, ../sass/_casestudy.scss */
+.heroImage {
+  background-image: url("../img/SM-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 137, ../sass/_casestudy.scss */
+.apHeroImage {
+  background-image: url("../img/ApplePay-BK-2.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 142, ../sass/_casestudy.scss */
+.aslHeroImage {
+  background-image: url("../img/asl_3.jpg");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 147, ../sass/_casestudy.scss */
+.kHeroImage {
+  background-image: url("../img/kinetic_4.gif");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 152, ../sass/_casestudy.scss */
+.kHeroImage2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/kinetic_1.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 161, ../sass/_casestudy.scss */
+.kHeroImage3 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/kinetic_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 170, ../sass/_casestudy.scss */
+.kHeroImage4 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/kinetic_3.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 179, ../sass/_casestudy.scss */
+.blondHeroImage {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/FO_1.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 188, ../sass/_casestudy.scss */
+.blondHeroImage2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/blond_1.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 197, ../sass/_casestudy.scss */
+.blondHeroImage3 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/blond_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 206, ../sass/_casestudy.scss */
+.blondHeroImage4 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/blond_3.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 215, ../sass/_casestudy.scss */
+.canvas {
+  width: 95vw;
+  height: 800px;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 221, ../sass/_casestudy.scss */
+.fHeroImage {
+  background-image: url("../img/f360vid.mp4");
+  background-position: center;
+  background-size: cover;
+}
+
+/* line 226, ../sass/_casestudy.scss */
+.fHeroImage2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/f_color.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 235, ../sass/_casestudy.scss */
+.fHeroImage3 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/f_graphics.jpg");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 244, ../sass/_casestudy.scss */
+.fHeroImage4 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/f_site.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 253, ../sass/_casestudy.scss */
+.fHeroImage5 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/f_site-2.png");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 262, ../sass/_casestudy.scss */
+.classLink {
+  color: blue;
+}
+
+/* line 265, ../sass/_casestudy.scss */
+.classLink:hover {
+  padding-left: 5px;
+  transition: 200ms ease-in-out;
+}

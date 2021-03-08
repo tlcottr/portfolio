@@ -1,0 +1,390 @@
+#body {
+  width:100%;
+  height:100%;
+  margin:0 auto;
+  overflow: scroll;
+}
+.bodyHasOverlay {
+  overflow: hidden;
+}
+
+
+.wbg {
+background-color: var(--gray);
+}
+
+// header
+
+#header {
+  padding-top:30px;
+  height:100px;
+  top:0px;
+  z-index: 20;
+  position:relative;
+  transition: 500ms ease-in-out;
+}
+.headerOverlay {
+  position: fixed;
+  top:0px;
+}
+#work {
+  position: relative;
+  transition: 500ms ease-in-out;
+  transition-delay: 500ms ease-in-out;
+}
+#info {
+  transition: 500ms ease-in-out;
+}
+.headercontent{
+  width: 95vw;
+  margin:0 auto;
+}
+.content-left {
+  float: left;
+  width:50%;
+}
+.logo {
+  float: left;
+}
+.content-right {
+  float: right;
+  width:50%;
+}
+.innerNav {
+  display: inline;
+  margin-left:1.25em;
+  transition: 300ms ease-in-out;
+  opacity: .5;
+  font-size: 3em;
+  font-weight: 100;
+}
+#x {
+  color: black;
+  rotation: 0deg;
+  cursor: pointer;
+}
+.innerNav:hover {
+  transition: 300ms ease-in-out;
+  opacity: 1;
+}
+.innerNav {
+  float: right;
+}
+// Menu nav
+
+.dividerStart {
+  color: white;
+  position: relative;
+  top:6vw;
+  width:0;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left:0;
+}
+.dividerStart2 {
+  color: white;
+  position: relative;
+  top:6vw;
+  width:0;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left:0;
+}
+.dividerStart3 {
+  color: white;
+  position: relative;
+  top:6vw;
+  width:0;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left:0;
+}
+.divider {
+  color: white;
+  position: relative;
+  top:6vw;
+  width:94vw;
+  transition: 1s ease-in-out;
+  transition-delay: .25s;
+  margin-left:0;
+}
+.divider2 {
+  color: white;
+  position: relative;
+  top:6vw;
+  width:94vw;
+  transition: 1s ease-in-out;
+  transition-delay: .5s;
+  margin-left:0;
+}
+.divider3 {
+  color: white;
+  position: relative;
+  top:6vw;
+  width:94vw;
+  transition: 1s ease-in-out;
+  transition-delay: .75s;
+  margin-left:0;
+}
+.menu{
+ height: 100vh;
+ width: 100%;
+ transition: 0.3s ease-in-out;
+ background-color: black;
+ position: fixed;
+ overflow-y: hidden;
+ overflow-x: hidden;
+ z-index: 10;
+ top:0;
+ left: 0;
+ opacity: 1;
+ visibility: visible;
+}
+.menuContent {
+  width: 95vw;
+  margin: 0 auto;
+}
+.menuModule {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 2em;
+  color: white;
+  position: relative;
+  top: 4vw;
+}
+.menuModuleTitle {
+  float:left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+  color: white;
+}
+.menuModuleText {
+  float: right;
+  font-size: 1.5em;
+  flex: 4;
+  font-weight: lighter;
+  color: white;
+  line-height: 1.5em;
+}
+.skillModule {
+  width: 100%;
+  font-family: helvetica;
+  display: flex;
+  margin-bottom: 2em;
+  margin-top: 6em;
+  color: white;
+  position: relative;
+  top: 4vw;
+}
+.skillModuleTitle {
+  float:left;
+  font-size: 1.5em;
+  flex: 1;
+  opacity: .5;
+  color: white;
+}
+.skillModuleText {
+  float: right;
+  font-size: 1.5em;
+  font-weight: lighter;
+  color: white;
+  line-height: 1.5em;
+  flex: 4;
+}
+.skillModuleText > a {
+  text-decoration: none;
+  color: white;
+  transition: .5s;
+  opacity: .75;
+  font-size: 1.5em;
+  margin-right: 1em;
+}
+.skillModuleText > a:visited {
+  text-decoration: none;
+  color: white;
+  opacity: 1;
+}
+.skillModuleText > a:hover {
+  color: white;
+  opacity: 1;
+}
+.skillModuleText > a:hover {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.show{
+ opacity: 0;
+ visibility: hidden;
+ transition: 300ms ease-in-out;
+}
+.rot {
+ -ms-transform: rotate(45deg);
+ -webkit-transform: rotate(45deg);
+ transform: rotate(45deg);
+ transition: 300ms ease-in-out;
+}
+
+// Work Section
+
+.open {
+  cursor: pointer;
+  transition: 500ms ease-in-out;
+}
+.workContainer {
+  margin:0 auto;
+  width:95vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.workContainer2 {
+  margin:0 auto;
+  padding-top: 3em;
+  width:95vw;
+  display: flex;
+  flex-wrap: wrap;
+}
+.workTile1 {
+  height: 600px;
+  width: 32.55%;
+  background-color: black;
+  border: 6px solid #f4f4f4;
+  cursor: pointer;
+  overflow: hidden;
+  position: relative;
+  z-index: 0;
+  transition: .25s ease-in-out;
+  top:0;
+}
+.workTile1:hover {
+  top:-5px;
+  .title2 {
+    opacity: 1;
+    transition: 300ms ease-in-out;
+  }
+}
+.title {
+  position: absolute;
+  z-index: 2;
+  top:30px;
+  left:30px;
+  font-family: helvetica;
+  color: white;
+  font-size: 1.2em;
+  font-weight: medium;
+  cursor: pointer;
+}
+.title2 {
+  position: absolute;
+  z-index: 1;
+  bottom:30px;
+  left:30px;
+  font-family: helvetica;
+  color: white;
+  font-size: 1.2em;
+  font-weight: medium;
+  opacity: 0;
+  cursor: pointer;
+}
+.SM {
+  background-image: url("../img/SM-1.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.SM:hover {
+  background-image: url("../img/SM-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.AP {
+  background-image: url("../img/AP-1.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.AP:hover {
+  background-image: url("../img/AP-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.hand {
+  background-image: url("../img/pers_hand.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.hand:hover {
+  background-image: url("../img/pers_hand-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.kinetic {
+  background-image: url("../img/radial.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.kinetic:hover {
+  background-image: url("../img/radial-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.fo {
+  background-image: url("../img/fo.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.fo:hover {
+  background-image: url("../img/fo-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.f360 {
+  background-image: url("../img/f360.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.f360:hover {
+  background-image: url("../img/f360-hover.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+  cursor: pointer;
+}
+.SM {
+  background-image: url("/img/SM-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.SM:hover {
+  background-image: url("/img/SM-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+}
+.AP {
+  background-image: url("/img/AP-1.jpg");
+  background-position: center;
+  background-size: cover;
+}
+.AP:hover {
+  background-image: url("/img/AP-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  transition: 300ms ease-in-out;
+}

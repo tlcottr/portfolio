@@ -1,0 +1,93 @@
+/* line 1, ../sass/overlay.scss */
+.overlay {
+  height: 0vh;
+  width: 100%;
+  z-index: 10;
+  background-color: #ffffff;
+  overflow-y: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 500ms ease-in-out;
+}
+
+/* line 12, ../sass/overlay.scss */
+.projectOverlay {
+  height: 2000px;
+  width: 0vw;
+  z-index: 5;
+  background-color: #d5d5d5;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transition: 600ms ease-in-out;
+}
+
+/* line 25, ../sass/overlay.scss */
+.overlay-content {
+  width: 95vw;
+  margin: 0 auto;
+  position: relative;
+  transition: 400ms ease-in-out;
+  transition-delay: 200ms;
+  opacity: 0%;
+  top: 75px;
+}
+
+/* line 34, ../sass/overlay.scss */
+.content-left {
+  float: left;
+}
+
+/* line 37, ../sass/overlay.scss */
+.content-right {
+  float: right;
+}
+
+/* line 40, ../sass/overlay.scss */
+.overlay a:hover, .overlay a:focus {
+  color: #f1f1f1;
+}
+
+/* line 43, ../sass/overlay.scss */
+.introduction {
+  font-size: 1.35em;
+  width: 40vw;
+  margin-right: 10vw;
+  line-height: 1.75em;
+  text-align: left;
+}
+
+/* line 50, ../sass/overlay.scss */
+.contact {
+  font-size: 1.35em;
+  width: 50vw;
+  line-height: 1.75em;
+  text-align: left;
+}
+
+/* line 56, ../sass/overlay.scss */
+.contactli {
+  display: inline;
+}
+
+/* line 59, ../sass/overlay.scss */
+.awardLogo {
+  height: 50px;
+  width: auto;
+  margin-right: 10px;
+}
+
+/* line 64, ../sass/overlay.scss */
+.award-holder {
+  margin-bottom: 3em;
+  margin-top: 1em;
+}
+
+/* line 68, ../sass/overlay.scss */
+video {
+  width: 100%;
+  height: auto;
+}
