@@ -382,21 +382,23 @@ a {
 .skillModuleText > a:hover {
   color: white;
   opacity: 1;
+  cursor: pointer;
 }
 
-/* line 216, ../sass/_body.scss */
+/* line 217, ../sass/_body.scss */
 .skillModuleText > a:hover {
   color: white;
+  cursor: pointer;
 }
 
-/* line 219, ../sass/_body.scss */
+/* line 221, ../sass/_body.scss */
 .show {
   opacity: 0;
   visibility: hidden;
   transition: 300ms ease-in-out;
 }
 
-/* line 224, ../sass/_body.scss */
+/* line 226, ../sass/_body.scss */
 .rot {
   -ms-transform: rotate(45deg);
   -webkit-transform: rotate(45deg);
@@ -404,13 +406,13 @@ a {
   transition: 300ms ease-in-out;
 }
 
-/* line 233, ../sass/_body.scss */
+/* line 235, ../sass/_body.scss */
 .open {
   cursor: pointer;
   transition: 500ms ease-in-out;
 }
 
-/* line 237, ../sass/_body.scss */
+/* line 239, ../sass/_body.scss */
 .workContainer {
   margin: 0 auto;
   width: 95vw;
@@ -419,7 +421,7 @@ a {
   margin-bottom: 1em;
 }
 
-/* line 244, ../sass/_body.scss */
+/* line 246, ../sass/_body.scss */
 .workContainer2 {
   margin: 0 auto;
   padding-top: 3em;
@@ -428,7 +430,7 @@ a {
   flex-wrap: wrap;
 }
 
-/* line 251, ../sass/_body.scss */
+/* line 253, ../sass/_body.scss */
 .navContainer {
   margin: 0 auto;
   padding-top: 3em;
@@ -437,7 +439,7 @@ a {
   flex-wrap: wrap;
 }
 
-/* line 258, ../sass/_body.scss */
+/* line 260, ../sass/_body.scss */
 .workTile1 {
   height: 600px;
   width: 32.55%;
@@ -451,17 +453,18 @@ a {
   top: 0;
 }
 
-/* line 270, ../sass/_body.scss */
+/* line 272, ../sass/_body.scss */
 .workTile1:hover {
   top: -5px;
 }
-/* line 272, ../sass/_body.scss */
+/* line 274, ../sass/_body.scss */
 .workTile1:hover .title2 {
   opacity: 1;
   transition: 300ms ease-in-out;
+  cursor: pointer;
 }
 
-/* line 277, ../sass/_body.scss */
+/* line 280, ../sass/_body.scss */
 .title {
   position: absolute;
   z-index: 2;
@@ -474,7 +477,7 @@ a {
   cursor: pointer;
 }
 
-/* line 288, ../sass/_body.scss */
+/* line 291, ../sass/_body.scss */
 .title2 {
   position: absolute;
   z-index: 1;
@@ -488,7 +491,7 @@ a {
   cursor: pointer;
 }
 
-/* line 300, ../sass/_body.scss */
+/* line 303, ../sass/_body.scss */
 .SM {
   background-image: url("../img/SM-1.jpg");
   background-position: center;
@@ -496,7 +499,7 @@ a {
   cursor: pointer;
 }
 
-/* line 306, ../sass/_body.scss */
+/* line 309, ../sass/_body.scss */
 .SM:hover {
   background-image: url("../img/SM-hov.jpg");
   background-position: center;
@@ -505,7 +508,7 @@ a {
   cursor: pointer;
 }
 
-/* line 313, ../sass/_body.scss */
+/* line 316, ../sass/_body.scss */
 .AP {
   background-image: url("../img/AP-1.jpg");
   background-position: center;
@@ -513,7 +516,7 @@ a {
   cursor: pointer;
 }
 
-/* line 319, ../sass/_body.scss */
+/* line 322, ../sass/_body.scss */
 .AP:hover {
   background-image: url("../img/AP-hov.jpg");
   background-position: center;
@@ -522,7 +525,7 @@ a {
   cursor: pointer;
 }
 
-/* line 326, ../sass/_body.scss */
+/* line 329, ../sass/_body.scss */
 .hand {
   background-image: url("../img/pers_hand.jpg");
   background-position: center;
@@ -530,7 +533,7 @@ a {
   cursor: pointer;
 }
 
-/* line 332, ../sass/_body.scss */
+/* line 335, ../sass/_body.scss */
 .hand:hover {
   background-image: url("../img/pers_hand-hov.jpg");
   background-position: center;
@@ -539,7 +542,7 @@ a {
   cursor: pointer;
 }
 
-/* line 339, ../sass/_body.scss */
+/* line 342, ../sass/_body.scss */
 .kinetic {
   background-image: url("../img/radial.jpg");
   background-position: center;
@@ -547,7 +550,7 @@ a {
   cursor: pointer;
 }
 
-/* line 345, ../sass/_body.scss */
+/* line 348, ../sass/_body.scss */
 .kinetic:hover {
   background-image: url("../img/radial-hov.jpg");
   background-position: center;
@@ -556,7 +559,7 @@ a {
   cursor: pointer;
 }
 
-/* line 352, ../sass/_body.scss */
+/* line 355, ../sass/_body.scss */
 .fo {
   background-image: url("../img/FO.jpg");
   background-position: center;
@@ -564,7 +567,7 @@ a {
   cursor: pointer;
 }
 
-/* line 358, ../sass/_body.scss */
+/* line 361, ../sass/_body.scss */
 .fo:hover {
   background-image: url("../img/FO-hov.jpg");
   background-position: center;
@@ -573,7 +576,7 @@ a {
   cursor: pointer;
 }
 
-/* line 365, ../sass/_body.scss */
+/* line 368, ../sass/_body.scss */
 .f360 {
   background-image: url("../img/f360.jpg");
   background-position: center;
@@ -581,7 +584,7 @@ a {
   cursor: pointer;
 }
 
-/* line 371, ../sass/_body.scss */
+/* line 374, ../sass/_body.scss */
 .f360:hover {
   background-image: url("../img/f360-hover.jpg");
   background-position: center;
@@ -590,7 +593,7 @@ a {
   cursor: pointer;
 }
 
-/* line 378, ../sass/_body.scss */
+/* line 381, ../sass/_body.scss */
 .lkr {
   background-image: url("../img/lkr-1.jpg");
   background-position: center;
@@ -598,7 +601,7 @@ a {
   cursor: pointer;
 }
 
-/* line 384, ../sass/_body.scss */
+/* line 387, ../sass/_body.scss */
 .lkr:hover {
   background-image: url("../img/lkr-hov.jpg");
   background-position: center;
@@ -606,34 +609,37 @@ a {
   cursor: pointer;
 }
 
-/* line 390, ../sass/_body.scss */
+/* line 393, ../sass/_body.scss */
 .SM {
   background-image: url("../img/SM-1.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 395, ../sass/_body.scss */
+/* line 398, ../sass/_body.scss */
 .SM:hover {
   background-image: url("../img/SM-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
+  cursor: pointer;
 }
 
-/* line 401, ../sass/_body.scss */
+/* line 405, ../sass/_body.scss */
 .AP {
   background-image: url("../img/AP-1.jpg");
   background-position: center;
   background-size: cover;
+  cursor: pointer;
 }
 
-/* line 406, ../sass/_body.scss */
+/* line 411, ../sass/_body.scss */
 .AP:hover {
   background-image: url("../img/AP-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
+  cursor: pointer;
 }
 
 /* line 1, ../sass/slideup.scss */

@@ -212,9 +212,11 @@ background-color: var(--gray);
 .skillModuleText > a:hover {
   color: white;
   opacity: 1;
+  cursor: pointer;
 }
 .skillModuleText > a:hover {
   color: white;
+  cursor: pointer;
 }
 .show{
  opacity: 0;
@@ -272,6 +274,7 @@ background-color: var(--gray);
   .title2 {
     opacity: 1;
     transition: 300ms ease-in-out;
+    cursor: pointer;
   }
 }
 .title {
@@ -397,15 +400,18 @@ background-color: var(--gray);
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
+  cursor: pointer;
 }
 .AP {
   background-image: url("../img/AP-1.jpg");
   background-position: center;
   background-size: cover;
+  cursor: pointer;
 }
 .AP:hover {
   background-image: url("../img/AP-hov.jpg");
   background-position: center;
   background-size: cover;
   transition: 300ms ease-in-out;
+  cursor: pointer;
 }
