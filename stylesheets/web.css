@@ -591,13 +591,29 @@ a {
 }
 
 /* line 378, ../sass/_body.scss */
+.lkr {
+  background-image: url("../img/lkr-1.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 384, ../sass/_body.scss */
+.lkr:hover {
+  background-image: url("../img/lkr-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+
+/* line 390, ../sass/_body.scss */
 .SM {
   background-image: url("../img/SM-1.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 383, ../sass/_body.scss */
+/* line 395, ../sass/_body.scss */
 .SM:hover {
   background-image: url("../img/SM-hov.jpg");
   background-position: center;
@@ -605,14 +621,14 @@ a {
   transition: 300ms ease-in-out;
 }
 
-/* line 389, ../sass/_body.scss */
+/* line 401, ../sass/_body.scss */
 .AP {
   background-image: url("../img/AP-1.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 394, ../sass/_body.scss */
+/* line 406, ../sass/_body.scss */
 .AP:hover {
   background-image: url("../img/AP-hov.jpg");
   background-position: center;
@@ -852,16 +868,19 @@ video {
   width: 100%;
   height: 800px;
   background-color: black;
+  background-image: url("../img/FO_1.jpg");
+  background-position: center;
+  background-size: cover;
 }
 
-/* line 43, ../sass/_casestudy.scss */
+/* line 46, ../sass/_casestudy.scss */
 .flondHeroImage {
   width: 100%;
   height: 800px;
   background-color: black;
 }
 
-/* line 48, ../sass/_casestudy.scss */
+/* line 51, ../sass/_casestudy.scss */
 .bodyText {
   float: right;
   font-size: 2em;
@@ -869,7 +888,7 @@ video {
   font-weight: lighter;
 }
 
-/* line 54, ../sass/_casestudy.scss */
+/* line 57, ../sass/_casestudy.scss */
 .heroImage2 {
   width: 100%;
   height: 800px;
@@ -880,7 +899,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 63, ../sass/_casestudy.scss */
+/* line 66, ../sass/_casestudy.scss */
 .aslHeroImage2 {
   width: 100%;
   height: 800px;
@@ -891,18 +910,18 @@ video {
   margin-top: 3em;
 }
 
-/* line 72, ../sass/_casestudy.scss */
+/* line 75, ../sass/_casestudy.scss */
 .aslHeroImage3 {
   width: 100%;
   height: 800px;
-  background-image: url("../img/hands2.gif");
+  background-image: url("../img/asl.gif");
   background-position: center;
   background-size: cover;
   margin-bottom: 3em;
   margin-top: 3em;
 }
 
-/* line 81, ../sass/_casestudy.scss */
+/* line 84, ../sass/_casestudy.scss */
 .aslHeroImage4 {
   width: 100%;
   height: 800px;
@@ -913,7 +932,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 90, ../sass/_casestudy.scss */
+/* line 93, ../sass/_casestudy.scss */
 .apHeroImage2 {
   width: 100%;
   height: 800px;
@@ -924,7 +943,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 99, ../sass/_casestudy.scss */
+/* line 102, ../sass/_casestudy.scss */
 .apHeroImage3 {
   width: 100%;
   height: 800px;
@@ -935,7 +954,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 108, ../sass/_casestudy.scss */
+/* line 111, ../sass/_casestudy.scss */
 .heroImage3 {
   width: 100%;
   height: 800px;
@@ -946,7 +965,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 117, ../sass/_casestudy.scss */
+/* line 120, ../sass/_casestudy.scss */
 .heroImage4 {
   width: 100%;
   height: 800px;
@@ -957,7 +976,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 126, ../sass/_casestudy.scss */
+/* line 129, ../sass/_casestudy.scss */
 .heroImage5 {
   width: 100%;
   height: 800px;
@@ -968,7 +987,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 135, ../sass/_casestudy.scss */
+/* line 138, ../sass/_casestudy.scss */
 .heroImage6 {
   width: 100%;
   height: 800px;
@@ -979,7 +998,15 @@ video {
   margin-top: 3em;
 }
 
-/* line 144, ../sass/_casestudy.scss */
+/* line 147, ../sass/_casestudy.scss */
+.heroImage7 {
+  width: 100%;
+  height: 800px;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 153, ../sass/_casestudy.scss */
 .module {
   width: 100%;
   font-family: helvetica;
@@ -988,7 +1015,7 @@ video {
   margin-top: 2em;
 }
 
-/* line 151, ../sass/_casestudy.scss */
+/* line 160, ../sass/_casestudy.scss */
 .moduleTitle {
   float: left;
   font-size: 1.5em;
@@ -996,7 +1023,7 @@ video {
   opacity: .5;
 }
 
-/* line 157, ../sass/_casestudy.scss */
+/* line 166, ../sass/_casestudy.scss */
 .moduleText {
   float: right;
   font-size: 2em;
@@ -1004,7 +1031,7 @@ video {
   font-weight: normal;
 }
 
-/* line 163, ../sass/_casestudy.scss */
+/* line 172, ../sass/_casestudy.scss */
 .moduleText2 {
   float: right;
   font-size: 1.5em;
@@ -1013,7 +1040,7 @@ video {
   line-height: 1.5em;
 }
 
-/* line 170, ../sass/_casestudy.scss */
+/* line 179, ../sass/_casestudy.scss */
 .moduleCredits {
   font-size: 1.5em;
   flex: 3;
@@ -1021,35 +1048,35 @@ video {
   margin-bottom: 2em;
 }
 
-/* line 176, ../sass/_casestudy.scss */
+/* line 185, ../sass/_casestudy.scss */
 .heroImage {
   background-image: url("../img/SM-2.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 181, ../sass/_casestudy.scss */
+/* line 190, ../sass/_casestudy.scss */
 .apHeroImage {
   background-image: url("../img/ApplePay-BK-2.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 186, ../sass/_casestudy.scss */
+/* line 195, ../sass/_casestudy.scss */
 .aslHeroImage {
   background-image: url("../img/hand5.jpg");
   background-position: center;
   background-size: cover;
 }
 
-/* line 191, ../sass/_casestudy.scss */
+/* line 200, ../sass/_casestudy.scss */
 .kHeroImage {
   background-image: url("../img/kinetic_4.gif");
   background-position: center;
   background-size: cover;
 }
 
-/* line 196, ../sass/_casestudy.scss */
+/* line 205, ../sass/_casestudy.scss */
 .kHeroImage2 {
   width: 100%;
   height: 800px;
@@ -1060,7 +1087,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 205, ../sass/_casestudy.scss */
+/* line 214, ../sass/_casestudy.scss */
 .kHeroImage3 {
   width: 100%;
   height: 800px;
@@ -1071,7 +1098,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 214, ../sass/_casestudy.scss */
+/* line 223, ../sass/_casestudy.scss */
 .kHeroImage4 {
   width: 100%;
   height: 800px;
@@ -1082,18 +1109,29 @@ video {
   margin-top: 3em;
 }
 
-/* line 223, ../sass/_casestudy.scss */
-.blondHeroImage {
+/* line 232, ../sass/_casestudy.scss */
+.nikeHeroImage {
   width: 100%;
   height: 800px;
-  background-image: url("../img/FO_1.jpg");
+  background-image: url("../img/nike_1.gif");
   background-position: center;
   background-size: cover;
   margin-bottom: 3em;
   margin-top: 3em;
 }
 
-/* line 232, ../sass/_casestudy.scss */
+/* line 241, ../sass/_casestudy.scss */
+.nikeHeroImage2 {
+  width: 100%;
+  height: 800px;
+  background-image: url("../img/nike_2.gif");
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 3em;
+  margin-top: 3em;
+}
+
+/* line 250, ../sass/_casestudy.scss */
 .blondHeroImage2 {
   width: 100%;
   height: 800px;
@@ -1104,7 +1142,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 241, ../sass/_casestudy.scss */
+/* line 259, ../sass/_casestudy.scss */
 .blondHeroImage3 {
   width: 100%;
   height: 800px;
@@ -1115,7 +1153,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 250, ../sass/_casestudy.scss */
+/* line 268, ../sass/_casestudy.scss */
 .blondHeroImage4 {
   width: 100%;
   height: 800px;
@@ -1126,7 +1164,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 259, ../sass/_casestudy.scss */
+/* line 277, ../sass/_casestudy.scss */
 .canvas {
   width: 95vw;
   height: 800px;
@@ -1134,14 +1172,14 @@ video {
   margin-top: 3em;
 }
 
-/* line 265, ../sass/_casestudy.scss */
+/* line 283, ../sass/_casestudy.scss */
 .fHeroImage {
   background-image: url("../img/f360vid.mp4");
   background-position: center;
   background-size: cover;
 }
 
-/* line 270, ../sass/_casestudy.scss */
+/* line 288, ../sass/_casestudy.scss */
 .fHeroImage2 {
   width: 100%;
   height: 800px;
@@ -1152,7 +1190,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 279, ../sass/_casestudy.scss */
+/* line 297, ../sass/_casestudy.scss */
 .fHeroImage3 {
   width: 100%;
   height: 800px;
@@ -1163,7 +1201,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 288, ../sass/_casestudy.scss */
+/* line 306, ../sass/_casestudy.scss */
 .fHeroImage4 {
   width: 100%;
   height: 800px;
@@ -1174,7 +1212,7 @@ video {
   margin-top: 3em;
 }
 
-/* line 297, ../sass/_casestudy.scss */
+/* line 315, ../sass/_casestudy.scss */
 .fHeroImage5 {
   width: 100%;
   height: 800px;
@@ -1185,18 +1223,18 @@ video {
   margin-top: 3em;
 }
 
-/* line 306, ../sass/_casestudy.scss */
+/* line 324, ../sass/_casestudy.scss */
 .classLink {
   color: blue;
 }
 
-/* line 309, ../sass/_casestudy.scss */
+/* line 327, ../sass/_casestudy.scss */
 .classLink:hover {
   padding-left: 5px;
   transition: 200ms ease-in-out;
 }
 
-/* line 313, ../sass/_casestudy.scss */
+/* line 331, ../sass/_casestudy.scss */
 .line {
   color: black;
   width: 94vw;

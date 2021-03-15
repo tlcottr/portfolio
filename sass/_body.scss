@@ -375,6 +375,18 @@ background-color: var(--gray);
   transition: 300ms ease-in-out;
   cursor: pointer;
 }
+.lkr {
+  background-image: url("../img/lkr-1.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
+.lkr:hover {
+  background-image: url("../img/lkr-hov.jpg");
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+}
 .SM {
   background-image: url("../img/SM-1.jpg");
   background-position: center;
