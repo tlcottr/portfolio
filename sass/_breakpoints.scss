@@ -1,6 +1,288 @@
+// iPhone 11
+
+@media screen and (min-width:375px) and (max-width:479px) {
+  .workContainer {
+    flex-direction: column;
+  }
+  .workTile1 {
+    width: auto;
+  }
+  .content-left {
+    width: 80%;
+  }
+  .content-right {
+    width: 20%;
+  }
+  .ms-header__title {
+    font-size: 1.25em;
+    padding-top: .5em;
+  }
+  .headercontent {
+    width: 93vw;
+  }
+  .menuContent {
+
+  }
+  #header {
+    padding-top: 10px;
+    height: 80px;
+  }
+  .menu {
+    overflow-y: scroll;
+  }
+  .bodyHasOverlay {
+    #header {
+      height:60px;
+      background-color: black;
+      padding-top: 10px;
+      height: 80px;
+    }
+  }
+  .menuModuleText {
+    font-size: 1.2em;
+    padding-right: .5em;
+  }
+  .menuModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+    padding-bottom: .2em;
+  }
+  .skillModuleText {
+    font-size: 1.2em;
+    padding-top: .07em;
+  }
+  .skillModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+    padding-bottom: .2em;
+  }
+  .dividerStart {
+    top: 22vw;
+  }
+  .divider {
+    top: 22vw;
+  }
+  .menuModule {
+    top: 6vw;
+    margin-top: 2em;
+  }
+  .skillModule {
+    margin-top: 3em;
+    top: 0vw;
+    margin-bottom: 2em;
+  }
+  .hide {
+    display: none;
+  }
+  // SM
+
+  .caseTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+    padding-bottom: .2em;
+  }
+  .caseDesc {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+  .moduleText {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+  .moduleTitle {
+    font-size: 1.2em;
+  }
+  .moduleText2 {
+    font-size: 1.1em;
+    flex: 2;
+  }
+  .blondHeroImage {
+    height: 400px;
+  }
+  .blondHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .blondHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .blondHeroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .moduleCredits {
+    font-size: 1.1em;
+  }
+  .fHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .fHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .fHeroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .fHeroImage5 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .aslHeroImage {
+    height: 200px;
+    width: 100vw;
+  }
+  .aslHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .aslHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .aslHeroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .kHeroImage {
+    height: 200px;
+    width: 100vw;
+  }
+  .kHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .kHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .kHeroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+  .heroImage {
+  height: 200px;
+  width: 100vw;
+}
+.heroImage {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.heroImage2 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.heroImage3 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.heroImage4 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.heroImage5 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.heroImage6 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.heroImage7 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.mobile {
+  display: block;
+}
+.apHeroImage {
+  height: 200px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.apHeroImage2 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+.apHeroImage3 {
+  height: 200px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  margin-bottom: 0em;
+  margin-top: 0em;
+}
+}
+
 //mobile
 
-@media (max-width: 480px) {
+@media screen and (min-width:480px) and (max-width:767px) {
   .workContainer {
     flex-direction: column;
   }
@@ -281,7 +563,7 @@
 }
 
 //Tablets
-@media (max-width: 768px) {
+@media screen and (min-width:768px) and (max-width:1023px) {
   .workTile1 {
     width: 48.25%;
   }
@@ -483,7 +765,7 @@
 
 
 //Small Laptops
-@media (max-width: 1024px) {
+@media screen and (min-width:1023px) and (max-width:1199px) {
   .workTile1 {
     height: 500px;
     width: 32%;
@@ -691,7 +973,7 @@
 
 
 //Desktops
-@media (max-width: 1200px) {
+@media screen and (min-width: 1200px) {
   .workTile1 {
     height: 600px;
     width: 32.25%;
@@ -897,5 +1179,3 @@
 }
 
 //Extra Large Screens
-@media (min-width: 1201px) {
-}

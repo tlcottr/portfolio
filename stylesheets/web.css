@@ -1254,7 +1254,7 @@ video {
   margin-bottom: 2em;
 }
 
-@media (max-width: 480px) {
+@media screen and (min-width: 375px) and (max-width: 479px) {
   /* line 4, ../sass/_breakpoints.scss */
   .workContainer {
     flex-direction: column;
@@ -1396,7 +1396,7 @@ video {
 
   /* line 102, ../sass/_breakpoints.scss */
   .blondHeroImage2 {
-    height: 300px;
+    height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 0em;
@@ -1405,7 +1405,7 @@ video {
 
   /* line 109, ../sass/_breakpoints.scss */
   .blondHeroImage3 {
-    height: 300px;
+    height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 0em;
@@ -1414,7 +1414,7 @@ video {
 
   /* line 116, ../sass/_breakpoints.scss */
   .blondHeroImage4 {
-    height: 300px;
+    height: 200px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 0em;
@@ -1629,35 +1629,410 @@ video {
     margin-top: 0em;
   }
 }
-@media (max-width: 768px) {
-  /* line 285, ../sass/_breakpoints.scss */
+@media screen and (min-width: 480px) and (max-width: 767px) {
+  /* line 286, ../sass/_breakpoints.scss */
+  .workContainer {
+    flex-direction: column;
+  }
+
+  /* line 289, ../sass/_breakpoints.scss */
+  .workTile1 {
+    width: auto;
+  }
+
+  /* line 292, ../sass/_breakpoints.scss */
+  .content-left {
+    width: 80%;
+  }
+
+  /* line 295, ../sass/_breakpoints.scss */
+  .content-right {
+    width: 20%;
+  }
+
+  /* line 298, ../sass/_breakpoints.scss */
+  .ms-header__title {
+    font-size: 1.25em;
+    padding-top: .5em;
+  }
+
+  /* line 302, ../sass/_breakpoints.scss */
+  .headercontent {
+    width: 93vw;
+  }
+
+  /* line 308, ../sass/_breakpoints.scss */
+  #header {
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  /* line 312, ../sass/_breakpoints.scss */
+  .menu {
+    overflow-y: scroll;
+  }
+
+  /* line 316, ../sass/_breakpoints.scss */
+  .bodyHasOverlay #header {
+    height: 60px;
+    background-color: black;
+    padding-top: 10px;
+    height: 80px;
+  }
+
+  /* line 323, ../sass/_breakpoints.scss */
+  .menuModuleText {
+    font-size: 1.2em;
+    padding-right: .5em;
+  }
+
+  /* line 327, ../sass/_breakpoints.scss */
+  .menuModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+    padding-bottom: .2em;
+  }
+
+  /* line 332, ../sass/_breakpoints.scss */
+  .skillModuleText {
+    font-size: 1.2em;
+    padding-top: .07em;
+  }
+
+  /* line 336, ../sass/_breakpoints.scss */
+  .skillModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+    padding-bottom: .2em;
+  }
+
+  /* line 341, ../sass/_breakpoints.scss */
+  .dividerStart {
+    top: 22vw;
+  }
+
+  /* line 344, ../sass/_breakpoints.scss */
+  .divider {
+    top: 22vw;
+  }
+
+  /* line 347, ../sass/_breakpoints.scss */
+  .menuModule {
+    top: 6vw;
+    margin-top: 2em;
+  }
+
+  /* line 351, ../sass/_breakpoints.scss */
+  .skillModule {
+    margin-top: 3em;
+    top: 0vw;
+    margin-bottom: 2em;
+  }
+
+  /* line 356, ../sass/_breakpoints.scss */
+  .hide {
+    display: none;
+  }
+
+  /* line 361, ../sass/_breakpoints.scss */
+  .caseTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+    padding-bottom: .2em;
+  }
+
+  /* line 366, ../sass/_breakpoints.scss */
+  .caseDesc {
+    font-size: 1.5em;
+    line-height: 1.2em;
+  }
+
+  /* line 370, ../sass/_breakpoints.scss */
+  .moduleText {
+    font-size: 1.5em;
+    line-height: 1.2;
+  }
+
+  /* line 374, ../sass/_breakpoints.scss */
+  .moduleTitle {
+    font-size: 1.2em;
+  }
+
+  /* line 377, ../sass/_breakpoints.scss */
+  .moduleText2 {
+    font-size: 1.1em;
+    flex: 2;
+  }
+
+  /* line 381, ../sass/_breakpoints.scss */
+  .blondHeroImage {
+    height: 400px;
+  }
+
+  /* line 384, ../sass/_breakpoints.scss */
+  .blondHeroImage2 {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 391, ../sass/_breakpoints.scss */
+  .blondHeroImage3 {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 398, ../sass/_breakpoints.scss */
+  .blondHeroImage4 {
+    height: 300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 405, ../sass/_breakpoints.scss */
+  .moduleCredits {
+    font-size: 1.1em;
+  }
+
+  /* line 408, ../sass/_breakpoints.scss */
+  .fHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 415, ../sass/_breakpoints.scss */
+  .fHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 422, ../sass/_breakpoints.scss */
+  .fHeroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 429, ../sass/_breakpoints.scss */
+  .fHeroImage5 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 436, ../sass/_breakpoints.scss */
+  .aslHeroImage {
+    height: 200px;
+    width: 100vw;
+  }
+
+  /* line 440, ../sass/_breakpoints.scss */
+  .aslHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 447, ../sass/_breakpoints.scss */
+  .aslHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 454, ../sass/_breakpoints.scss */
+  .aslHeroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 461, ../sass/_breakpoints.scss */
+  .kHeroImage {
+    height: 200px;
+    width: 100vw;
+  }
+
+  /* line 465, ../sass/_breakpoints.scss */
+  .kHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 472, ../sass/_breakpoints.scss */
+  .kHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 479, ../sass/_breakpoints.scss */
+  .kHeroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 486, ../sass/_breakpoints.scss */
+  .heroImage {
+    height: 200px;
+    width: 100vw;
+  }
+
+  /* line 490, ../sass/_breakpoints.scss */
+  .heroImage {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 497, ../sass/_breakpoints.scss */
+  .heroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 504, ../sass/_breakpoints.scss */
+  .heroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 511, ../sass/_breakpoints.scss */
+  .heroImage4 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 518, ../sass/_breakpoints.scss */
+  .heroImage5 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 525, ../sass/_breakpoints.scss */
+  .heroImage6 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 532, ../sass/_breakpoints.scss */
+  .heroImage7 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 539, ../sass/_breakpoints.scss */
+  .mobile {
+    display: block;
+  }
+
+  /* line 542, ../sass/_breakpoints.scss */
+  .apHeroImage {
+    height: 200px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 549, ../sass/_breakpoints.scss */
+  .apHeroImage2 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+
+  /* line 556, ../sass/_breakpoints.scss */
+  .apHeroImage3 {
+    height: 200px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 0em;
+    margin-top: 0em;
+  }
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  /* line 567, ../sass/_breakpoints.scss */
   .workTile1 {
     width: 48.25%;
   }
 
-  /* line 289, ../sass/_breakpoints.scss */
+  /* line 571, ../sass/_breakpoints.scss */
   .bodyHasOverlay #header {
     height: 60px;
     background-color: black;
   }
 
-  /* line 294, ../sass/_breakpoints.scss */
+  /* line 576, ../sass/_breakpoints.scss */
   .hide {
     display: none;
   }
 
-  /* line 297, ../sass/_breakpoints.scss */
+  /* line 579, ../sass/_breakpoints.scss */
   .skillModule {
     margin-top: 4em;
   }
 
-  /* line 300, ../sass/_breakpoints.scss */
+  /* line 582, ../sass/_breakpoints.scss */
   .caseDesc {
     font-size: 2em;
     flex: 2.5;
   }
 
-  /* line 305, ../sass/_breakpoints.scss */
+  /* line 587, ../sass/_breakpoints.scss */
   .heroImage {
     height: 400px;
     background-size: cover;
@@ -1666,7 +2041,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 312, ../sass/_breakpoints.scss */
+  /* line 594, ../sass/_breakpoints.scss */
   .heroImage2 {
     height: 400px;
     background-size: contain;
@@ -1675,7 +2050,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 319, ../sass/_breakpoints.scss */
+  /* line 601, ../sass/_breakpoints.scss */
   .heroImage3 {
     height: 400px;
     background-size: contain;
@@ -1684,7 +2059,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 326, ../sass/_breakpoints.scss */
+  /* line 608, ../sass/_breakpoints.scss */
   .heroImage4 {
     height: 400px;
     background-size: contain;
@@ -1693,7 +2068,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 333, ../sass/_breakpoints.scss */
+  /* line 615, ../sass/_breakpoints.scss */
   .heroImage5 {
     height: 400px;
     background-size: contain;
@@ -1702,7 +2077,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 340, ../sass/_breakpoints.scss */
+  /* line 622, ../sass/_breakpoints.scss */
   .heroImage6 {
     height: 400px;
     background-size: contain;
@@ -1711,7 +2086,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 347, ../sass/_breakpoints.scss */
+  /* line 629, ../sass/_breakpoints.scss */
   .heroImage7 {
     height: 400px;
     background-size: contain;
@@ -1720,7 +2095,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 355, ../sass/_breakpoints.scss */
+  /* line 637, ../sass/_breakpoints.scss */
   .apHeroImage {
     height: 400px;
     background-size: cover;
@@ -1729,7 +2104,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 362, ../sass/_breakpoints.scss */
+  /* line 644, ../sass/_breakpoints.scss */
   .apHeroImage2 {
     height: 400px;
     background-size: contain;
@@ -1738,7 +2113,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 369, ../sass/_breakpoints.scss */
+  /* line 651, ../sass/_breakpoints.scss */
   .apHeroImage3 {
     height: 400px;
     background-size: contain;
@@ -1747,12 +2122,12 @@ video {
     margin-top: 0em;
   }
 
-  /* line 377, ../sass/_breakpoints.scss */
+  /* line 659, ../sass/_breakpoints.scss */
   .blondHeroImage {
     height: 400px;
   }
 
-  /* line 380, ../sass/_breakpoints.scss */
+  /* line 662, ../sass/_breakpoints.scss */
   .blondHeroImage2 {
     height: 400px;
     background-size: contain;
@@ -1761,7 +2136,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 387, ../sass/_breakpoints.scss */
+  /* line 669, ../sass/_breakpoints.scss */
   .blondHeroImage3 {
     height: 400px;
     background-size: contain;
@@ -1770,7 +2145,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 394, ../sass/_breakpoints.scss */
+  /* line 676, ../sass/_breakpoints.scss */
   .blondHeroImage4 {
     height: 400px;
     background-size: contain;
@@ -1779,7 +2154,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 402, ../sass/_breakpoints.scss */
+  /* line 684, ../sass/_breakpoints.scss */
   .fHeroImage2 {
     height: 400px;
     background-size: contain;
@@ -1788,7 +2163,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 409, ../sass/_breakpoints.scss */
+  /* line 691, ../sass/_breakpoints.scss */
   .fHeroImage3 {
     height: 400px;
     background-size: contain;
@@ -1797,7 +2172,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 416, ../sass/_breakpoints.scss */
+  /* line 698, ../sass/_breakpoints.scss */
   .fHeroImage4 {
     height: 400px;
     background-size: contain;
@@ -1806,7 +2181,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 423, ../sass/_breakpoints.scss */
+  /* line 705, ../sass/_breakpoints.scss */
   .fHeroImage5 {
     height: 400px;
     background-size: contain;
@@ -1815,13 +2190,13 @@ video {
     margin-top: 0em;
   }
 
-  /* line 431, ../sass/_breakpoints.scss */
+  /* line 713, ../sass/_breakpoints.scss */
   .aslHeroImage {
     height: 400px;
     width: 100vw;
   }
 
-  /* line 435, ../sass/_breakpoints.scss */
+  /* line 717, ../sass/_breakpoints.scss */
   .aslHeroImage2 {
     height: 400px;
     background-size: contain;
@@ -1830,7 +2205,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 442, ../sass/_breakpoints.scss */
+  /* line 724, ../sass/_breakpoints.scss */
   .aslHeroImage3 {
     height: 400px;
     background-size: contain;
@@ -1839,7 +2214,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 449, ../sass/_breakpoints.scss */
+  /* line 731, ../sass/_breakpoints.scss */
   .aslHeroImage4 {
     height: 400px;
     background-size: contain;
@@ -1848,13 +2223,13 @@ video {
     margin-top: 0em;
   }
 
-  /* line 457, ../sass/_breakpoints.scss */
+  /* line 739, ../sass/_breakpoints.scss */
   .kHeroImage {
     height: 400px;
     width: 100vw;
   }
 
-  /* line 461, ../sass/_breakpoints.scss */
+  /* line 743, ../sass/_breakpoints.scss */
   .kHeroImage2 {
     height: 400px;
     background-size: contain;
@@ -1863,7 +2238,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 468, ../sass/_breakpoints.scss */
+  /* line 750, ../sass/_breakpoints.scss */
   .kHeroImage3 {
     height: 400px;
     background-size: contain;
@@ -1872,7 +2247,7 @@ video {
     margin-top: 0em;
   }
 
-  /* line 475, ../sass/_breakpoints.scss */
+  /* line 757, ../sass/_breakpoints.scss */
   .kHeroImage4 {
     height: 400px;
     background-size: contain;
@@ -1881,421 +2256,60 @@ video {
     margin-top: 0em;
   }
 }
-@media (max-width: 1024px) {
-  /* line 487, ../sass/_breakpoints.scss */
+@media screen and (min-width: 1023px) and (max-width: 1199px) {
+  /* line 769, ../sass/_breakpoints.scss */
   .workTile1 {
     height: 500px;
     width: 32%;
   }
 
-  /* line 491, ../sass/_breakpoints.scss */
+  /* line 773, ../sass/_breakpoints.scss */
   .divider {
     top: 8vw;
   }
 
-  /* line 494, ../sass/_breakpoints.scss */
+  /* line 776, ../sass/_breakpoints.scss */
   .dividerStart {
     top: 8vw;
   }
 
-  /* line 497, ../sass/_breakpoints.scss */
+  /* line 779, ../sass/_breakpoints.scss */
   .menuModuleText {
     font-size: 1.2em;
   }
 
-  /* line 500, ../sass/_breakpoints.scss */
+  /* line 782, ../sass/_breakpoints.scss */
   .menuModuleTitle {
     font-size: 1.25em;
   }
 
-  /* line 503, ../sass/_breakpoints.scss */
+  /* line 785, ../sass/_breakpoints.scss */
   .skillModuleText {
     font-size: 1.2em;
   }
 
-  /* line 506, ../sass/_breakpoints.scss */
+  /* line 788, ../sass/_breakpoints.scss */
   .skillModuleTitle {
     font-size: 1.25em;
   }
 
-  /* line 509, ../sass/_breakpoints.scss */
+  /* line 791, ../sass/_breakpoints.scss */
   .caseDesc {
     font-size: 2.5em;
-  }
-
-  /* line 513, ../sass/_breakpoints.scss */
-  .heroImage {
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 520, ../sass/_breakpoints.scss */
-  .heroImage2 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 527, ../sass/_breakpoints.scss */
-  .heroImage3 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 534, ../sass/_breakpoints.scss */
-  .heroImage4 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 541, ../sass/_breakpoints.scss */
-  .heroImage5 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 548, ../sass/_breakpoints.scss */
-  .heroImage6 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 555, ../sass/_breakpoints.scss */
-  .heroImage7 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 563, ../sass/_breakpoints.scss */
-  .apHeroImage {
-    height: 500px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 570, ../sass/_breakpoints.scss */
-  .apHeroImage2 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 577, ../sass/_breakpoints.scss */
-  .apHeroImage3 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 585, ../sass/_breakpoints.scss */
-  .blondHeroImage {
-    height: 500px;
-  }
-
-  /* line 588, ../sass/_breakpoints.scss */
-  .blondHeroImage2 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 595, ../sass/_breakpoints.scss */
-  .blondHeroImage3 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 602, ../sass/_breakpoints.scss */
-  .blondHeroImage4 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 610, ../sass/_breakpoints.scss */
-  .fHeroImage2 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 617, ../sass/_breakpoints.scss */
-  .fHeroImage3 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 624, ../sass/_breakpoints.scss */
-  .fHeroImage4 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 631, ../sass/_breakpoints.scss */
-  .fHeroImage5 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 639, ../sass/_breakpoints.scss */
-  .aslHeroImage {
-    height: 500px;
-    width: 100vw;
-  }
-
-  /* line 643, ../sass/_breakpoints.scss */
-  .aslHeroImage2 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 650, ../sass/_breakpoints.scss */
-  .aslHeroImage3 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 657, ../sass/_breakpoints.scss */
-  .aslHeroImage4 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 665, ../sass/_breakpoints.scss */
-  .kHeroImage {
-    height: 500px;
-    width: 100vw;
-  }
-
-  /* line 669, ../sass/_breakpoints.scss */
-  .kHeroImage2 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 676, ../sass/_breakpoints.scss */
-  .kHeroImage3 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 683, ../sass/_breakpoints.scss */
-  .kHeroImage4 {
-    height: 500px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-}
-@media (max-width: 1200px) {
-  /* line 695, ../sass/_breakpoints.scss */
-  .workTile1 {
-    height: 600px;
-    width: 32.25%;
-  }
-
-  /* line 699, ../sass/_breakpoints.scss */
-  .divider {
-    top: 8vw;
-  }
-
-  /* line 702, ../sass/_breakpoints.scss */
-  .dividerStart {
-    top: 8vw;
-  }
-
-  /* line 705, ../sass/_breakpoints.scss */
-  .menuModuleText {
-    font-size: 1.3em;
-  }
-
-  /* line 708, ../sass/_breakpoints.scss */
-  .menuModuleTitle {
-    font-size: 1.3em;
-  }
-
-  /* line 711, ../sass/_breakpoints.scss */
-  .skillModuleText {
-    font-size: 1.3em;
-  }
-
-  /* line 714, ../sass/_breakpoints.scss */
-  .skillModuleTitle {
-    font-size: 1.3em;
-  }
-
-  /* line 717, ../sass/_breakpoints.scss */
-  .caseDesc {
-    font-size: 2.5em;
-  }
-
-  /* line 720, ../sass/_breakpoints.scss */
-  .heroImage {
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 727, ../sass/_breakpoints.scss */
-  .heroImage2 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 734, ../sass/_breakpoints.scss */
-  .heroImage3 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 741, ../sass/_breakpoints.scss */
-  .heroImage4 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 748, ../sass/_breakpoints.scss */
-  .heroImage5 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 755, ../sass/_breakpoints.scss */
-  .heroImage6 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 762, ../sass/_breakpoints.scss */
-  .heroImage7 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 770, ../sass/_breakpoints.scss */
-  .apHeroImage {
-    height: 600px;
-    background-size: cover;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 777, ../sass/_breakpoints.scss */
-  .apHeroImage2 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 784, ../sass/_breakpoints.scss */
-  .apHeroImage3 {
-    height: 600px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    margin-bottom: 3em;
-    margin-top: 3em;
-  }
-
-  /* line 792, ../sass/_breakpoints.scss */
-  .blondHeroImage {
-    height: 600px;
   }
 
   /* line 795, ../sass/_breakpoints.scss */
-  .blondHeroImage2 {
-    height: 600px;
-    background-size: contain;
+  .heroImage {
+    height: 500px;
+    background-size: cover;
     background-repeat: no-repeat;
     margin-bottom: 3em;
     margin-top: 3em;
   }
 
   /* line 802, ../sass/_breakpoints.scss */
-  .blondHeroImage3 {
-    height: 600px;
+  .heroImage2 {
+    height: 500px;
     background-size: contain;
     background-repeat: no-repeat;
     margin-bottom: 3em;
@@ -2303,6 +2317,367 @@ video {
   }
 
   /* line 809, ../sass/_breakpoints.scss */
+  .heroImage3 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 816, ../sass/_breakpoints.scss */
+  .heroImage4 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 823, ../sass/_breakpoints.scss */
+  .heroImage5 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 830, ../sass/_breakpoints.scss */
+  .heroImage6 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 837, ../sass/_breakpoints.scss */
+  .heroImage7 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 845, ../sass/_breakpoints.scss */
+  .apHeroImage {
+    height: 500px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 852, ../sass/_breakpoints.scss */
+  .apHeroImage2 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 859, ../sass/_breakpoints.scss */
+  .apHeroImage3 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 867, ../sass/_breakpoints.scss */
+  .blondHeroImage {
+    height: 500px;
+  }
+
+  /* line 870, ../sass/_breakpoints.scss */
+  .blondHeroImage2 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 877, ../sass/_breakpoints.scss */
+  .blondHeroImage3 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 884, ../sass/_breakpoints.scss */
+  .blondHeroImage4 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 892, ../sass/_breakpoints.scss */
+  .fHeroImage2 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 899, ../sass/_breakpoints.scss */
+  .fHeroImage3 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 906, ../sass/_breakpoints.scss */
+  .fHeroImage4 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 913, ../sass/_breakpoints.scss */
+  .fHeroImage5 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 921, ../sass/_breakpoints.scss */
+  .aslHeroImage {
+    height: 500px;
+    width: 100vw;
+  }
+
+  /* line 925, ../sass/_breakpoints.scss */
+  .aslHeroImage2 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 932, ../sass/_breakpoints.scss */
+  .aslHeroImage3 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 939, ../sass/_breakpoints.scss */
+  .aslHeroImage4 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 947, ../sass/_breakpoints.scss */
+  .kHeroImage {
+    height: 500px;
+    width: 100vw;
+  }
+
+  /* line 951, ../sass/_breakpoints.scss */
+  .kHeroImage2 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 958, ../sass/_breakpoints.scss */
+  .kHeroImage3 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 965, ../sass/_breakpoints.scss */
+  .kHeroImage4 {
+    height: 500px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+}
+@media screen and (min-width: 1200px) {
+  /* line 977, ../sass/_breakpoints.scss */
+  .workTile1 {
+    height: 600px;
+    width: 32.25%;
+  }
+
+  /* line 981, ../sass/_breakpoints.scss */
+  .divider {
+    top: 8vw;
+  }
+
+  /* line 984, ../sass/_breakpoints.scss */
+  .dividerStart {
+    top: 8vw;
+  }
+
+  /* line 987, ../sass/_breakpoints.scss */
+  .menuModuleText {
+    font-size: 1.3em;
+  }
+
+  /* line 990, ../sass/_breakpoints.scss */
+  .menuModuleTitle {
+    font-size: 1.3em;
+  }
+
+  /* line 993, ../sass/_breakpoints.scss */
+  .skillModuleText {
+    font-size: 1.3em;
+  }
+
+  /* line 996, ../sass/_breakpoints.scss */
+  .skillModuleTitle {
+    font-size: 1.3em;
+  }
+
+  /* line 999, ../sass/_breakpoints.scss */
+  .caseDesc {
+    font-size: 2.5em;
+  }
+
+  /* line 1002, ../sass/_breakpoints.scss */
+  .heroImage {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1009, ../sass/_breakpoints.scss */
+  .heroImage2 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1016, ../sass/_breakpoints.scss */
+  .heroImage3 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1023, ../sass/_breakpoints.scss */
+  .heroImage4 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1030, ../sass/_breakpoints.scss */
+  .heroImage5 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1037, ../sass/_breakpoints.scss */
+  .heroImage6 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1044, ../sass/_breakpoints.scss */
+  .heroImage7 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1052, ../sass/_breakpoints.scss */
+  .apHeroImage {
+    height: 600px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1059, ../sass/_breakpoints.scss */
+  .apHeroImage2 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1066, ../sass/_breakpoints.scss */
+  .apHeroImage3 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1074, ../sass/_breakpoints.scss */
+  .blondHeroImage {
+    height: 600px;
+  }
+
+  /* line 1077, ../sass/_breakpoints.scss */
+  .blondHeroImage2 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1084, ../sass/_breakpoints.scss */
+  .blondHeroImage3 {
+    height: 600px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    margin-bottom: 3em;
+    margin-top: 3em;
+  }
+
+  /* line 1091, ../sass/_breakpoints.scss */
   .blondHeroImage4 {
     height: 600px;
     background-size: contain;
@@ -2311,7 +2686,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 817, ../sass/_breakpoints.scss */
+  /* line 1099, ../sass/_breakpoints.scss */
   .fHeroImage2 {
     height: 600px;
     background-size: contain;
@@ -2320,7 +2695,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 824, ../sass/_breakpoints.scss */
+  /* line 1106, ../sass/_breakpoints.scss */
   .fHeroImage3 {
     height: 600px;
     background-size: contain;
@@ -2329,7 +2704,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 831, ../sass/_breakpoints.scss */
+  /* line 1113, ../sass/_breakpoints.scss */
   .fHeroImage4 {
     height: 600px;
     background-size: contain;
@@ -2338,7 +2713,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 838, ../sass/_breakpoints.scss */
+  /* line 1120, ../sass/_breakpoints.scss */
   .fHeroImage5 {
     height: 600px;
     background-size: contain;
@@ -2347,13 +2722,13 @@ video {
     margin-top: 3em;
   }
 
-  /* line 846, ../sass/_breakpoints.scss */
+  /* line 1128, ../sass/_breakpoints.scss */
   .aslHeroImage {
     height: 600px;
     width: 100vw;
   }
 
-  /* line 850, ../sass/_breakpoints.scss */
+  /* line 1132, ../sass/_breakpoints.scss */
   .aslHeroImage2 {
     height: 600px;
     background-size: contain;
@@ -2362,7 +2737,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 857, ../sass/_breakpoints.scss */
+  /* line 1139, ../sass/_breakpoints.scss */
   .aslHeroImage3 {
     height: 600px;
     background-size: contain;
@@ -2371,7 +2746,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 864, ../sass/_breakpoints.scss */
+  /* line 1146, ../sass/_breakpoints.scss */
   .aslHeroImage4 {
     height: 600px;
     background-size: contain;
@@ -2380,13 +2755,13 @@ video {
     margin-top: 3em;
   }
 
-  /* line 872, ../sass/_breakpoints.scss */
+  /* line 1154, ../sass/_breakpoints.scss */
   .kHeroImage {
     height: 600px;
     width: 100vw;
   }
 
-  /* line 876, ../sass/_breakpoints.scss */
+  /* line 1158, ../sass/_breakpoints.scss */
   .kHeroImage2 {
     height: 600px;
     background-size: contain;
@@ -2395,7 +2770,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 883, ../sass/_breakpoints.scss */
+  /* line 1165, ../sass/_breakpoints.scss */
   .kHeroImage3 {
     height: 600px;
     background-size: contain;
@@ -2404,7 +2779,7 @@ video {
     margin-top: 3em;
   }
 
-  /* line 890, ../sass/_breakpoints.scss */
+  /* line 1172, ../sass/_breakpoints.scss */
   .kHeroImage4 {
     height: 600px;
     background-size: contain;
