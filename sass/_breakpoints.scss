@@ -65,6 +65,7 @@
     top: 6vw;
     flex-direction: column;
     padding-left: .4em;
+    margin-top: 1em;
   }
   .skillModule {
     margin-top: 2em;
@@ -72,6 +73,9 @@
     margin-bottom: 0em;
     flex-direction: column;
     padding-left: .4em;
+  }
+  .divider {
+    display: none;
   }
 }
 

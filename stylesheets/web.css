@@ -1345,14 +1345,20 @@ video {
     top: 6vw;
     flex-direction: column;
     padding-left: .4em;
+    margin-top: 1em;
   }
 
-  /* line 69, ../sass/_breakpoints.scss */
+  /* line 70, ../sass/_breakpoints.scss */
   .skillModule {
     margin-top: 2em;
     top: 0vw;
     margin-bottom: 0em;
     flex-direction: column;
     padding-left: .4em;
+  }
+
+  /* line 77, ../sass/_breakpoints.scss */
+  .divider {
+    display: none;
   }
 }
