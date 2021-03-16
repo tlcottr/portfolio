@@ -646,7 +646,7 @@ a {
 .ms-header {
   display: flex;
   align-items: center;
-  jsutify-content: center;
+  justify-content: center;
   font-family: var(--standard-font);
 }
 
@@ -1247,4 +1247,87 @@ video {
   opacity: .5;
   margin-top: 2em;
   margin-bottom: 2em;
+}
+
+@media (max-width: 480px) {
+  /* line 4, ../sass/_breakpoints.scss */
+  .workContainer {
+    flex-direction: column;
+  }
+
+  /* line 7, ../sass/_breakpoints.scss */
+  .workTile1 {
+    width: auto;
+  }
+
+  /* line 10, ../sass/_breakpoints.scss */
+  .content-left {
+    width: 80%;
+  }
+
+  /* line 13, ../sass/_breakpoints.scss */
+  .content-right {
+    width: 20%;
+  }
+
+  /* line 16, ../sass/_breakpoints.scss */
+  .ms-header__title {
+    font-size: 1.25em;
+    padding-top: .5em;
+  }
+
+  /* line 20, ../sass/_breakpoints.scss */
+  .menu {
+    overflow-y: scroll;
+  }
+
+  /* line 24, ../sass/_breakpoints.scss */
+  .bodyHasOverlay #header {
+    height: 60px;
+    background-color: black;
+  }
+
+  /* line 29, ../sass/_breakpoints.scss */
+  .menuModuleText {
+    font-size: 1.2em;
+  }
+
+  /* line 32, ../sass/_breakpoints.scss */
+  .menuModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+  }
+
+  /* line 36, ../sass/_breakpoints.scss */
+  .skillModuleText {
+    font-size: 1.2em;
+  }
+
+  /* line 39, ../sass/_breakpoints.scss */
+  .skillModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+  }
+
+  /* line 43, ../sass/_breakpoints.scss */
+  .dividerStart {
+    top: 22vw;
+  }
+
+  /* line 46, ../sass/_breakpoints.scss */
+  .divider {
+    top: 22vw;
+  }
+
+  /* line 49, ../sass/_breakpoints.scss */
+  .menuModule {
+    top: 6vw;
+  }
+
+  /* line 52, ../sass/_breakpoints.scss */
+  .skillModule {
+    margin-top: 3em;
+    top: 0vw;
+    margin-bottom: 1em;
+  }
 }

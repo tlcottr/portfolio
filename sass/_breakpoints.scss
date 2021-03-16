@@ -1,0 +1,73 @@
+//mobile
+
+@media (max-width: 480px) {
+  .workContainer {
+    flex-direction: column;
+  }
+  .workTile1 {
+    width: auto;
+  }
+  .content-left {
+    width: 80%;
+  }
+  .content-right {
+    width: 20%;
+  }
+  .ms-header__title {
+    font-size: 1.25em;
+    padding-top: .5em;
+  }
+  .menu {
+    overflow-y: scroll;
+  }
+  .bodyHasOverlay {
+    #header {
+      height:60px;
+      background-color: black;
+    }
+  }
+  .menuModuleText {
+    font-size: 1.2em;
+  }
+  .menuModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+  }
+  .skillModuleText {
+    font-size: 1.2em;
+  }
+  .skillModuleTitle {
+    font-size: 1.2em;
+    padding-top: .18em;
+  }
+  .dividerStart {
+    top: 22vw;
+  }
+  .divider {
+    top: 22vw;
+  }
+  .menuModule {
+    top: 6vw;
+  }
+  .skillModule {
+    margin-top: 3em;
+    top: 0vw;
+    margin-bottom: 1em;
+  }
+}
+
+//Tablets
+@media (max-width: 768px) {
+}
+
+//Small Laptops
+@media (max-width: 1024px) {
+}
+
+//Desktops
+@media (max-width: 1200px) {
+}
+
+//Extra Large Screens
+@media (min-width: 1201px) {
+}
