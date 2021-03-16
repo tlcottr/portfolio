@@ -1281,24 +1281,18 @@ video {
     width: 93vw;
   }
 
-  /* line 23, ../sass/_breakpoints.scss */
-  .menuContent {
-    height: 1000px;
-    overflow-y: scroll;
-  }
-
-  /* line 27, ../sass/_breakpoints.scss */
+  /* line 26, ../sass/_breakpoints.scss */
   #header {
     padding-top: 10px;
     height: 80px;
   }
 
-  /* line 31, ../sass/_breakpoints.scss */
+  /* line 30, ../sass/_breakpoints.scss */
   .menu {
     overflow-y: scroll;
   }
 
-  /* line 35, ../sass/_breakpoints.scss */
+  /* line 34, ../sass/_breakpoints.scss */
   .bodyHasOverlay #header {
     height: 60px;
     background-color: black;
@@ -1306,9 +1300,10 @@ video {
     height: 80px;
   }
 
-  /* line 42, ../sass/_breakpoints.scss */
+  /* line 41, ../sass/_breakpoints.scss */
   .menuModuleText {
     font-size: 1.2em;
+    padding-right: 1em;
   }
 
   /* line 45, ../sass/_breakpoints.scss */
@@ -1321,44 +1316,41 @@ video {
   /* line 50, ../sass/_breakpoints.scss */
   .skillModuleText {
     font-size: 1.2em;
+    padding-top: .07em;
   }
 
-  /* line 53, ../sass/_breakpoints.scss */
+  /* line 54, ../sass/_breakpoints.scss */
   .skillModuleTitle {
     font-size: 1.2em;
     padding-top: .18em;
     padding-bottom: .2em;
   }
 
-  /* line 58, ../sass/_breakpoints.scss */
+  /* line 59, ../sass/_breakpoints.scss */
   .dividerStart {
     top: 22vw;
   }
 
-  /* line 61, ../sass/_breakpoints.scss */
+  /* line 62, ../sass/_breakpoints.scss */
   .divider {
     top: 22vw;
   }
 
-  /* line 64, ../sass/_breakpoints.scss */
+  /* line 65, ../sass/_breakpoints.scss */
   .menuModule {
     top: 6vw;
-    flex-direction: column;
-    padding-left: .4em;
-    margin-top: 1em;
-  }
-
-  /* line 70, ../sass/_breakpoints.scss */
-  .skillModule {
     margin-top: 2em;
-    top: 0vw;
-    margin-bottom: 0em;
-    flex-direction: column;
-    padding-left: .4em;
   }
 
-  /* line 77, ../sass/_breakpoints.scss */
-  .divider {
+  /* line 69, ../sass/_breakpoints.scss */
+  .skillModule {
+    margin-top: 3em;
+    top: 0vw;
+    margin-bottom: 2em;
+  }
+
+  /* line 74, ../sass/_breakpoints.scss */
+  .hide {
     display: none;
   }
 }
