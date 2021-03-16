@@ -17,6 +17,13 @@
     font-size: 1.25em;
     padding-top: .5em;
   }
+  .headercontent {
+    width: 93vw;
+  }
+  #header {
+    padding-top: 10px;
+    height: 80px;
+  }
   .menu {
     overflow-y: scroll;
   }
@@ -24,6 +31,8 @@
     #header {
       height:60px;
       background-color: black;
+      padding-top: 10px;
+      height: 80px;
     }
   }
   .menuModuleText {
