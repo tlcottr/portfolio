@@ -642,6 +642,11 @@ a {
   cursor: pointer;
 }
 
+/* line 419, ../sass/_body.scss */
+#mainDialog {
+  border-radius: 0px;
+}
+
 /* line 1, ../sass/slideup.scss */
 .ms-header {
   display: flex;
