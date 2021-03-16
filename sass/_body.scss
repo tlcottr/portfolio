@@ -415,7 +415,7 @@ background-color: var(--gray);
   transition: 300ms ease-in-out;
   cursor: pointer;
 }
-// password page
-#mainDialog {
-  border-radius: 0px;
+.mobile {
+  display: none;
 }
+// password page
