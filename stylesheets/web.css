@@ -1315,38 +1315,44 @@ video {
   .menuModuleTitle {
     font-size: 1.2em;
     padding-top: .18em;
+    padding-bottom: .2em;
   }
 
-  /* line 49, ../sass/_breakpoints.scss */
+  /* line 50, ../sass/_breakpoints.scss */
   .skillModuleText {
     font-size: 1.2em;
   }
 
-  /* line 52, ../sass/_breakpoints.scss */
+  /* line 53, ../sass/_breakpoints.scss */
   .skillModuleTitle {
     font-size: 1.2em;
     padding-top: .18em;
+    padding-bottom: .2em;
   }
 
-  /* line 56, ../sass/_breakpoints.scss */
+  /* line 58, ../sass/_breakpoints.scss */
   .dividerStart {
     top: 22vw;
   }
 
-  /* line 59, ../sass/_breakpoints.scss */
+  /* line 61, ../sass/_breakpoints.scss */
   .divider {
     top: 22vw;
   }
 
-  /* line 62, ../sass/_breakpoints.scss */
+  /* line 64, ../sass/_breakpoints.scss */
   .menuModule {
     top: 6vw;
+    flex-direction: column;
+    padding-left: .4em;
   }
 
-  /* line 65, ../sass/_breakpoints.scss */
+  /* line 69, ../sass/_breakpoints.scss */
   .skillModule {
-    margin-top: 3em;
+    margin-top: 2em;
     top: 0vw;
-    margin-bottom: 1em;
+    margin-bottom: 0em;
+    flex-direction: column;
+    padding-left: .4em;
   }
 }
